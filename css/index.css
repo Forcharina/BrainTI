@@ -1,0 +1,31 @@
+/* Inicio */
+.wrapper1 {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Conteudo sobre Nós */
+.post{
+    background-color: #48CAE4;
+    padding: 25px;
+    margin-bottom: 64px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(19, 19, 31, 0.05);
+}
+.conteudo_post > h2{
+    margin: 16px 0 5px;
+}
+.cabecalho_post > p, .conteudo_post > p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}

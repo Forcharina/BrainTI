@@ -1,0 +1,31 @@
+/* Estilos específicos da pagina Blog */
+.post{
+    background-color: #48CAE4;
+    padding: 25px;
+    margin-bottom: 64px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(19, 19, 31, 0.05);
+}
+.conteudo_post > h2{
+    margin: 16px 0 5px;
+}
+.cabecalho_post > p, .conteudo_post > p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.cabecalho_post > i{
+    color: #db3f3f;
+    font-size: 26px;
+}
+.cabecalho_post > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 900;
+    cursor: pointer;
+}
+.conteudo_post > h2{
+    color: #001219;
+    font-weight: 800;
+    font-size: 34px;
+}
